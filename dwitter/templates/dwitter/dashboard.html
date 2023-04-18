@@ -33,14 +33,14 @@
 
     <div class="block">
         <div class="block">
-            <h2 class="title is-2">Add a Dweet</p>
+            <h2 class="title is-2">Add a Tweet</p>
         </div>
         <div class="block">
             <form method="post">
                 {% csrf_token %}
                 {{ form.as_p }}
                 <button class="button is-success is-fullwidth is-medium mt-5"
-                        type="submit">Dweet
+                        type="submit">Tweet
                 </button>
             </form>
         </div>
